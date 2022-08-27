@@ -1,0 +1,60 @@
+body{
+
+    background-color: rgb(255, 255, 255);
+}
+
+#tela{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+#mostrar{
+    position: relative;
+    background-color: darkgray;
+    font-size:xxx-large;
+    text-align: right;
+    height: 45px;
+    margin-bottom: -30px;
+}
+
+button{
+    position: relative;
+    
+    width: 60px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(17, 116, 146, 0.308);
+    color: #ffff;
+    border-radius: 2px;
+    border: none;
+    margin: 3px;
+
+    
+}
+button:hover{
+    border: solid;
+    
+    border-color: white;
+}
+
+.botoes{
+  
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(165, 38, 38, 0.336);
+    width: 300px;
+    height: 300px;
+    margin-top: 12px;
+    
+
+}
